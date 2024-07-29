@@ -48,3 +48,48 @@ header nav ul li a {
 header nav ul li a:hover {
     background-color: #f7cd43;
 }
+/* Main sections styles */
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+section .container {
+    width: 80%;
+    margin: 0 auto;
+    ;
+}
+
+section h2 {
+    
+    margin-bottom: 2rem;
+}
+
+section p {
+    
+    margin-bottom: 2rem;
+}
+
+.menu-item {
+    margin-bottom: 3rem;
+}
+
+.menu-item img {
+    max-width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25%;
+}
+
+.menu-item h3 {
+    margin-top: 1rem;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #ec9e0c;
+    color: white;
+}
+
+#contact address {
+    margin-bottom: 1rem;
+}
