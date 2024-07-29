@@ -93,3 +93,17 @@ section p {
 #contact address {
     margin-bottom: 1rem;
 }
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: rgb(248, 243, 243);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items:center;
+    }
