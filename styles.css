@@ -1,0 +1,110 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #99461f;
+}
+
+/* Header styles */
+header {
+    background-color: #ec9e0c;
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 2rem;
+ 
+
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #f7cd43;
+}
+
+/* Main sections styles */
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+section .container {
+    width: 80%;
+    margin: 0 auto;
+    ;
+}
+
+section h2 {
+    
+    margin-bottom: 2rem;
+}
+
+section p {
+    
+    margin-bottom: 2rem;
+}
+
+.menu-item {
+    margin-bottom: 3rem;
+}
+
+.menu-item img {
+    max-width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25%;
+}
+
+.menu-item h3 {
+    margin-top: 1rem;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #ec9e0c;
+    color: white;
+}
+
+#contact address {
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: rgb(248, 243, 243);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items:center;
